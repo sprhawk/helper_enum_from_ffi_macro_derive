@@ -1,0 +1,14 @@
+[package]
+name = "helper_enum_from_ffi_macro_derive"
+version = "0.1.0"
+authors = ["sprhawk <465558+sprhawk@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.9"
+syn = { version="1.0.16", features=["extra-traits", "full"] }
+quote = "1.0.3"
+Inflector = "*"
